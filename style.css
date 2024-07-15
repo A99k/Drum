@@ -22,10 +22,15 @@ button{
     height: 100px;
     width: 100px;
     border-width: 5px;
+    border-color:grey;
     border-radius: 5px;
     border-color: gray;
     font-size: 30px;
     font-family: monospace;
+}
+.pressed{
+    box-shadow:5px 5px red;
+    opacity:0.5;
 }
 .a{
     background-image: url('./images/crash.png');
